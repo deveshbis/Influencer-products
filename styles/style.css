@@ -1,1 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
 
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Header Section  Style*/
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+
+    list-style: none;
+    margin-right: 34px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+
+
+/* Influencer Journey Section */
+.journey-section {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.journey-content h1 {
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.journey-content p {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.primary-btn {
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 10px 24px;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFF;
+    border: none;
+}
+
+.camera-img{
+    background: url("../images/Circle\ design.svg"), lightgray -256.697px -123px / 220.317% 154.831% no-repeat;
+    border-radius: 475px;
+    border: 3px solid  white;
+    padding: 30px 31px 33px 2px;
+}
+
+/* icons style */
+.icons-section ul{
+    display: flex;
+    padding: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icons-section li{
+    list-style: none;
+}
